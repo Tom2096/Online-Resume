@@ -1,0 +1,51 @@
+/* CHAT ANIMATIONS ------------------------------------------------*/
+
+.chat-animation-enter {
+    opacity: 0;
+}
+
+.chat-animation-enter-done {
+    opacity: 1;
+}
+
+.chat-animation-exit {
+    opacity: 1;
+}
+
+.chat-animation-exit-active {
+    opacity: 0;
+}
+
+.chat-animation-exit-done {
+    opacity: 0;
+}
+
+/* CHAT-ICON ANIMATIONS ------------------------------------------------*/
+
+.chat-icon-animation-enter {
+    bottom: 8rem;
+    opacity: 0;
+}
+
+.chat-icon-animation-enter-active {
+    transform: translateY(5rem);
+    opacity: 1;
+}
+
+.chat-icon-animation-enter-done {
+    opacity: 1;
+}
+
+.chat-icon-animation-exit {
+    bottom: 4rem;
+    opacity: 1;
+}
+
+.chat-icon-animation-exit-active {
+    transform: translateY(-4rem);
+    opacity: 0;
+}
+
+.chat-icon-animation-exit-done {
+    opacity: 0;
+}

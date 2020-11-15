@@ -1,0 +1,67 @@
+.about {
+    width: 100%;
+    padding-top: 10rem;
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 10rem;
+}
+
+.img-container {
+    overflow: hidden;
+    margin-right: 3rem;
+    border: 3px solid white;
+}
+
+.about-me-img {
+    position: relative;
+    width: 335px;
+    height: 410px;
+    background-image: url("../images/protrait.jpg");
+    background-size: 335px 410px;
+}
+
+.about-me-content {
+    height: 100%;
+    width: 40rem;
+}
+
+.about-me-content-title {
+    color: aliceblue;
+    font-size: 3rem;
+}
+
+.about-me-content-text {
+    margin-top: 2rem;
+    color: #a09a9a;
+}
+
+.skills-header {
+    color: aliceblue;
+    text-align: right;
+    padding-right: 10rem;
+    font-size: 2rem;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5rem;
+    padding: 10rem;
+    color: aliceblue;
+}
+
+.skills-title {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.skills-text {
+    color: #a09a9a;
+}
